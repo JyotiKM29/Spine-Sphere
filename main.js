@@ -84,7 +84,9 @@ t1.fromTo('nav', {y:'-100%'} ,{y:'0%'})
 t1.fromTo('.title', {
   opacity: 0
 } , {opacity: 1})
-
+t1.fromTo('.subtitle', {
+  opacity: 0
+} , {opacity: 1})
 
 // Mouse Animation Colorrr
 let mouseDown = false;
