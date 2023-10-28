@@ -35,6 +35,10 @@ ul{
   list-style: none;
   display: flex;
   gap: 4rem;
+
+  @media(max-width: 768px){
+    gap: 1rem;
+  }
 }
 
 .title{
@@ -45,5 +49,8 @@ ul{
   z-index: 2;
   color: white;
   font-size: 3rem;
+  @media(max-width: 768px){
+    font-size: 2rem;
+  }
 
 }
